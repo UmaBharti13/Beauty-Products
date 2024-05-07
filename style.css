@@ -1,0 +1,574 @@
+body
+{
+    background-image: url(images/bg.jpg);
+    background-size: 100% 737px;
+    margin:0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+/* navbar code start */
+
+nav
+{
+    width:100%;
+    height:260px;
+    background-color: rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    float:left;
+    padding:30px;
+	
+}    
+    
+#welcome, #login, #signup, #contact   /*login is the id of login.html heading*/
+    {
+        color:wheat;
+        font-size: 80px;
+        text-align: center;
+        padding:0;
+        margin: 0;
+    }
+
+#menu
+    {
+        width:750px;
+        height: 70px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        
+    }
+
+#nav_items
+    {
+        width:20%;
+        height: 70px;
+        border:2px solid wheat;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+a
+    {
+        color:wheat;
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+  
+
+/* navbar code ends */
+
+/* section homepage code starts */
+
+#section
+{
+    width:700px;
+    height:476px;
+    box-sizing: border-box;
+    float:right;
+    clip-path: polygon(29% 0, 100% 0, 100% 100%, 0% 100%);
+    background-color: rgba(0,0,0,0.8);
+}    
+
+#logo
+    {
+        width:180px;
+        height:180px;
+        box-sizing: border-box;
+        border:5px solid wheat;
+        margin-left: 150px;
+        margin-top:110px;
+    }  
+
+#logo-text
+    {
+        margin:0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:wheat;
+        font-size: 160px;
+        margin-top:-12px;
+    }
+
+#domain
+    {
+        margin:0;
+        padding: 0;
+        color:wheat;
+        font-family: cursive;
+        font-size: 40px;
+        text-align: center;
+        margin-left: 150px;
+        
+    }    
+ 
+
+/* section homepage code ends */
+
+/* section login code starts */
+
+#sectionlogin
+{
+    width:700px;
+    height:476px;
+    box-sizing: border-box;
+    float:right;
+    clip-path: polygon(29% 0, 100% 0, 100% 100%, 0% 100%);
+    background-color: rgba(0,0,0,0.8);
+    padding:60px;
+}    
+#loginfieldset
+{  
+    width:350px;
+    height:250px;
+    border:5px solid wheat;
+    margin-left: 180px;
+    padding: 25px;
+}
+
+#loginlegend
+{
+    font-family: cursive;
+    font-size: 30px;
+    color:wheat;
+    font-weight: bold;
+}
+
+#login_form
+{
+    color:wheat;
+    font-family: century gothic;
+    font-size: 22px;
+}
+
+#username, #password
+{
+    width:100%;
+    height:25px;
+    background-color: inherit;
+    border:none;
+    border:2px solid wheat;
+    margin-top:10px;
+    color:wheat;
+    font-size: 17px;
+}
+
+#login_btn
+{
+    width:100px;
+    height:30px;
+    float:right;
+    background-color: inherit;
+    border:none;
+    border:2px solid wheat;
+    color:wheat;
+    font-family: cursive;
+}
+
+/* section login code ends */
+
+
+/* section signup code starts */
+
+#sectionsignup
+{
+    width:700px;
+    height:476px;
+    box-sizing: border-box;
+    float:right;
+    clip-path: polygon(29% 0, 100% 0, 100% 100%, 0% 100%);
+    background-color: rgba(0,0,0,0.8);
+    
+}
+
+#signupfieldeset
+{
+    width:350px;
+    height:400px;
+    border:5px solid wheat;
+    margin-left: 230px;
+    margin-top:-10px;
+    padding: 25px;
+}
+
+#signuplegend
+{
+    font-family: cursive;
+    font-size: 30px;
+    color:wheat;
+    font-weight: bold;
+}
+
+#signup_form
+{
+    color:wheat;
+    font-family: century gothic;
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+
+#usernamesignup, #mobile, #email, #passwordsignup
+{
+    width:100%;
+    height:25px;
+    background-color: inherit;
+    border:none;
+    border:2px solid wheat;
+    margin-top:10px;
+    color:wheat;
+    font-size: 17px;
+}
+
+#signup_btn
+{
+    width:120px;
+    height:30px;
+    float:right;
+    background-color: inherit;
+    border:none;
+    border:2px solid wheat;
+    color:wheat;
+    font-family: cursive;
+    margin-right: -7px;
+    
+}
+/* section signup code ends */
+
+
+
+/* section contact code starts */
+
+#sectioncontact
+{
+    width:700px;
+    height:476px;
+    box-sizing: border-box;
+    float:right;
+    clip-path: polygon(29% 0, 100% 0, 100% 100%, 0% 100%);
+    background-color: rgba(0,0,0,0.8);
+}
+
+#contactfieldset
+{
+    width:350px;
+    height:250px;
+    border:5px solid wheat;
+    margin-left: 230px;
+    margin-top:70px;
+    padding: 25px;
+}
+
+#contactlegend
+{
+    font-family: cursive;
+    font-size: 30px;
+    color:wheat;
+    font-weight: bold;
+}
+
+#contact_add
+{
+    font-size: 18px;
+    color:wheat;
+    font-family: century gothic;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+/* section signup code ends */
+
+
+/* section products code starts */
+
+#sectionproducts
+{
+    width:100%;
+    height: 3100px;
+    /* border:1px solid red; */
+    float: left;
+    box-sizing: border-box;
+}
+
+#brands
+{
+    width:100%;
+    height:400px;
+    background-color: rgba(237, 148, 85,0.2);
+    float:left;
+    box-sizing: border-box;
+}
+
+#brand_heading
+{
+    text-align: center;
+    color:rgb(163, 67, 67);
+    font-family: Stencil;
+    font-size: 40px;
+}
+
+#brand_pic
+{
+    width:200px;
+    height: 105px;
+    float:left;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-color:black;
+    border-style: solid;
+    /* border:1px solid wheat; */
+    margin:50px;
+    margin-top: 0;
+}
+
+#search
+{
+    width:60%;
+    height:50px;
+    box-sizing: border-box;
+    float:left;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    border:none;
+    border:1px solid black;
+    background-color: white;
+    font-size:18px;
+    padding:10px;
+    background-image: url(images/search.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+/* product name price and buy now buttons */
+
+#product_name
+{
+    color:black;
+    text-align: center;
+    font-family: cursive;
+    padding:0;
+    margin: 0;
+    font-size: 12px;
+}
+
+#product_price
+{
+    padding:0;
+    margin:0;
+    color:black;
+    margin:8px;
+    font-family: cursive;
+    font-size: 15px;
+    float:left;
+}
+
+#btn
+{
+    float:right;
+    margin:8px;
+    border:none;
+    background-color: white;
+    cursor: pointer;
+    
+    
+}
+
+/* kay beauty products */
+
+#beauty_products
+{
+    width:100%;
+    height:540px;
+    float:left;
+    box-sizing: border-box;
+    background-color: rgba(225, 172, 172,0.2);
+}
+
+#kay
+{
+    text-align: center;
+    color:rgb(149, 21, 86);
+    font-family: Viner Hand ITC;
+    font-size: 35px;
+}
+
+#kaybeautyproducts
+{
+    width:250px;
+    height:300px;
+    border:1px solid black;
+    background-color: white;
+    float:left;
+    box-sizing: border-box;
+    margin:64px;
+}
+
+/* lakme products */
+
+#beauty_products2
+{
+    width:100%;
+    height:540px;
+    float:left;
+    box-sizing: border-box;
+    background-color: rgba(255, 140, 148,0.2);
+}
+
+
+#lakme
+{
+    text-align: center;
+    color:rgb(235, 88, 111);
+    font-family: sans-serif;
+    font-size: 35px;
+}
+
+#lakmeproducts
+{
+    width:250px;
+    height:300px;
+    border:1px solid black;
+    background-color: white;
+    float:left;
+    box-sizing: border-box;
+    margin:64px;
+}
+
+/* loreal products */
+
+#beauty_products3
+{
+    width:100%;
+    height:540px;
+    float:left;
+    box-sizing: border-box;
+    background-color: rgba(255, 255,255 ,0.2);
+}
+
+
+#loreal
+{
+    text-align: center;
+    color:rgb(0,0,0);
+    font-family: century gothic;
+    font-size: 35px;
+}
+
+#lorealproducts
+{
+    width:250px;
+    height:300px;
+    border:1px solid black;
+    background-color: white;
+    float:left;
+    box-sizing: border-box;
+    margin:64px;
+}
+
+
+/* mamaearth products */
+
+#beauty_products4
+{
+    width:100%;
+    height:540px;
+    float:left;
+    box-sizing: border-box;
+    background-color: rgba(208, 245, 190,0.2);
+}
+
+
+#mama
+{
+    text-align: center;
+    color:rgb(116, 219, 239);
+    font-family: Tempus Sans ITC;
+    font-size: 35px;
+}
+
+
+#mamaproducts
+{
+    width:250px;
+    height:300px;
+    border:1px solid black;
+    background-color: white;
+    float:left;
+    box-sizing: border-box;
+    margin:64px;
+}
+
+
+/* maybelline products */
+
+
+#beauty_products5
+{
+    width:100%;
+    height:540px;
+    float:left;
+    box-sizing: border-box;
+    background-color: rgb(239, 233, 75,0.3);
+}
+
+
+#maybelline
+{
+    text-align: center;
+    color:black;
+    font-family: sans-serif;
+    font-size: 35px;
+    letter-spacing:4px;
+    line-height: 28%;
+    font-weight: normal;
+    
+}
+
+#maybelline2
+{
+    color:black;
+    font-size: 10px;
+    letter-spacing: 4px;
+    margin-left:169px;
+    font-weight: bold;
+}
+
+
+#mayproducts
+{
+    width:250px;
+    height:300px;
+    border:1px solid black;
+    background-color: white;
+    float:left;
+    box-sizing: border-box;
+    margin:64px;
+}
+
+
+/* section products code ends */
+
+
+
+/* footer code starts here */
+
+footer
+{
+    width:100%;
+    height:60px;
+    box-sizing: border-box;
+    float:left;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    color:wheat;
+    
+}
+/* footer code ends here */
+
+
+
+
+
